@@ -5,7 +5,7 @@
   "category": "DATA_QUALITY",
   "base_url": "https://app.dev.getmontecarlo.com/",
   "endpoints" : {
-  "connect_path": "/connect",
+  "connect_path": "/databricks/connect",
   "get_connectors_path": "/connectors",
   "test_connection_path": "/test-connection",
   "delete_account_path": "/delete-account",
