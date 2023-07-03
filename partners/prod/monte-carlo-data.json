@@ -3,13 +3,13 @@
   "name": "monte-carlo-data",
   "description_blurb": "connect Monte Carlo Data to Databricks Partner Connect",
   "category": "DATA_QUALITY",
-  "base_url": "https://app.dev.getmontecarlo.com/",
+  "base_url": "https://integrations.dev.getmontecarlo.com/",
   "endpoints" : {
-  "connect_path": "/databricks/connect",
-  "get_connectors_path": "/connectors",
-  "test_connection_path": "/test-connection",
-  "delete_account_path": "/delete-account",
-  "delete_connection_path": "/delete-connection"
+    "connect_path": "/databricks/connect",
+    "get_connectors_path": "/connectors",
+    "test_connection_path": "/test-connection",
+    "delete_account_path": "/delete-account",
+    "delete_connection_path": "/delete-connection"
   },
   "sign_up_page": "https://www.montecarlodata.com/request-a-demo/",
   "privacy_policy": "https://www.montecarlodata.com/privacy-policy/",
@@ -21,10 +21,12 @@
   ],
   "data_permissions": [{"permission":  "USAGE"}, {"permission":  "SELECT"}, {"permission":  "READ_METADATA"}],
   "supported_clouds": [
-    "aws"
+    "aws",
+    "azure",
+    "gcp"
   ],
   "hostnames" : [
     "localhost"
   ],
-  "new_user_action": "auto_add"
+  "new_user_action": "get_in_touch_with_sales_support"
 }
