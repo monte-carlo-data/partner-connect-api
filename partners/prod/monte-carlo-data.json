@@ -1,0 +1,38 @@
+{
+  "api_version": "2.1.0",
+  "name": "monte-carlo-data",
+  "description_blurb": "connect Monte Carlo Data to Databricks Partner Connect",
+  "category": "DATA_QUALITY",
+  "base_url": "https://integrations.getmontecarlo.com",
+  "endpoints" : {
+    "connect_path": "/databricks-partner/connect",
+    "delete_connection_path": "/databricks-partner/delete-connection"
+  },
+  "sign_up_page": "https://www.montecarlodata.com/request-a-demo/",
+  "privacy_policy": "https://www.montecarlodata.com/privacy-policy/",
+  "terms_of_service": "https://www.montecarlodata.com/terms-and-conditions/",
+  "logo_file": "logo.png",
+  "icon_file": "icon.png",
+  "resources_to_provision": [
+    {"resource_type": "SqlEndpoint"}
+  ],
+  "object_permissions": [
+    {"name": "SQL_Endpoint", "level": "CAN_MANAGE"}
+  ],
+  "data_permissions": [
+    {"permission":  "USAGE"},
+    {"permission":  "SELECT"},
+    {"permission":  "READ_METADATA"}
+  ],
+  "supported_clouds": [
+    "aws",
+    "azure",
+    "gcp"
+  ],
+  "hostnames" : [
+    "app.getmontecarlo.com",
+    "integrations.getmontecarlo.com",
+    "www.montecarlodata.com"
+  ],
+  "new_user_action": "invite"
+}

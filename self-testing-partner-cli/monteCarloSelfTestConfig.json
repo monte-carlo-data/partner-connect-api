@@ -1,0 +1,14 @@
+{
+  "partner": {
+    "name": "Monte Carlo",
+    "category": "DATA_QUALITY",
+    "sign_up_url": "https://www.montecarlodata.com/request-a-demo/",
+    "connect_url": "https://integrations.dev.getmontecarlo.com/databricks-partner/connect",
+    "delete_url": "https://integrations.dev.getmontecarlo.com/databricks-partner/delete-connection",
+    "terms_of_service_url": "https://www.montecarlodata.com/terms-and-conditions/",
+    "privacy_policy_url": "https://www.montecarlodata.com/privacy-policy/",
+    "hostnames": "integrations.dev.getmontecarlo.com,app.dev.getmontecarlo.com,www.montecarlodata.com",
+    "supported_features": ["UNITY_CATALOG"],
+    "integration_type": "WAREHOUSE_READ"
+  }
+}
